@@ -1,16 +1,29 @@
 # CounterFit-Nightlight
 Nightlight client using mqtt protocol.
 
-## Install mqtt library:
+## Create a Python virtual environment
+```
+python3 -m venv .venv
+```
 
+## Install CounterFit pip packages:
+```
+pip install CounterFit
+pip install counterfit-connection
+pip install counterfit-shims-grove
+```
+
+## Install mqtt library:
 ```
 pip3 install paho-mqtt
 ```
 
-## Quickstart:
+## Run CounterFit:
 ```
-In project root directory:
+CounterFit
+```
 
-python3 app.py
-
+## Run program:
+```
+python app.py
 ```
